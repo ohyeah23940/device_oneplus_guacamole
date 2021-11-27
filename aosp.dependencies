@@ -1,14 +1,32 @@
 [
   {
-    "repository"   : "device_oneplus_sm8150-common",
+    "repository"   : "Chandra-Chaganti/android_device_oneplus_sm8150-common",
     "target_path"  : "device/oneplus/sm8150-common",
-    "remote"       : "pixel-devices",
-    "branch"       : "twelve"
+    "remote"       : "github",
+    "branch"       : "12"
   },
   {
-    "repository"  : "vendor_oneplus_guacamole",
+    "repository"  : "Chandra-Chaganti/android_vendor_oneplus_guacamole",
     "target_path" : "vendor/oneplus/guacamole",
+    "branch"      : "arrow-12.0",
+    "remote"      : "github"
+  },
+  {
+    "repository"   : "Chandra-Chaganti/android_kernel_oneplus_sm8150",
+    "target_path"  : "kernel/oneplus/sm8150"",
+    "remote"       : "github",
+    "branch"       : "arrow-12.0"
+  },
+  {
+    "repository"  : "Chandra-Chaganti/android_device_oneplus_extras",
+    "target_path" : "device/oneplus/extras",
+    "branch"      : "arrow-12.0",
+    "remote"      : "github"
+  },
+  {
+    "repository"  : "Chandra-Chaganti/hardware_oneplus",
+    "target_path" : "hardware/oneplus",
     "branch"      : "twelve",
-    "remote"      : "pixel-devices-blobs"
+    "remote"      : "github"
   }
 ]
